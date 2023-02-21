@@ -5,6 +5,7 @@
   "author": "Thodoris Pliakas <thodoris.pliakas@gmail.com> (https://tpliakas.com)",
   "license": "MIT",
   "type": "module",
+  "main": "dist/greek-lists.js",
   "homepage": "https://github.com/tpliakas/greek-lists",
   "repository": {
     "type": "git",
