@@ -1,0 +1,39 @@
+{
+  "name": "greek-lists",
+  "description": "An attempt to gather greek static lists in one place.",
+  "version": "1.0.0",
+  "author": "Thodoris Pliakas <thodoris.pliakas@gmail.com> (https://tpliakas.com)",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/tpliakas/greek-lists",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tpliakas/greek-lists.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tpliakas/greek-lists/issues"
+  },
+  "keywords": [
+    "greek",
+    "lists",
+    "greek list",
+    "greek cities",
+    "greek municipalities",
+    "greek prefectures",
+    "greek regions",
+    "greek areas"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "2.8.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
