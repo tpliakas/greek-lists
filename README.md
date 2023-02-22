@@ -6,7 +6,7 @@
 An attempt to gather greek static lists in one place.
 
 | **Currently supported lists** |
-| ----------------------------- |
+| :---------------------------- |
 | Communities                   |
 | Decentralized Administrations |
 | Municipalities                |
@@ -17,16 +17,15 @@ An attempt to gather greek static lists in one place.
 | Settlements                   |
 
 &nbsp;
-
 ---
+&nbsp;
+&nbsp;
 
-&nbsp;
-&nbsp;
 ![Greek](https://raw.githubusercontent.com/tpliakas/greek-lists/main/src/assets/gr.png)
 Μια προσπάθεια να μαζέψουμε ελληνικές στατικές λίστες σε ένα σημείο.
 
 | **Λίστες που υποστηρίζονται** |
-| ----------------------------- |
+| :---------------------------- |
 | Κοινότητες                    |
 | Αποκεντρωμένες Διοικήσεις     |
 | Δήμοι                         |
