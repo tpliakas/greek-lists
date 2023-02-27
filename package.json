@@ -1,7 +1,7 @@
 {
   "name": "greek-lists",
   "description": "An attempt to gather greek static lists in one place.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Thodoris Pliakas <thodoris.pliakas@gmail.com> (https://tpliakas.com)",
   "license": "MIT",
   "type": "module",
