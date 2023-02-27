@@ -103,6 +103,7 @@ Output
 | `settlements`                  | `string[]`                               |
 
 <h5 id="mountain">Mountain</h5>
+
 ````
 {
 name: string;
@@ -112,6 +113,7 @@ area: string;
 prefecture: string;
 }
 ````
+
 ## Contributing
 
 Contributions are always welcome!
