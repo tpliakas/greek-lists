@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+**v1.0.1** - 27-02-2023
+Added:
+
+- Mountains
+
+---
+
 **v1.0.0** - 23-02-2023
 Initial version published, supporting the following lists:
 

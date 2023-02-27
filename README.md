@@ -9,6 +9,7 @@ An attempt to gather greek static lists in one place.
 | :---------------------------- |
 | Communities                   |
 | Decentralized Administrations |
+| Mountains                     |
 | Municipalities                |
 | Municipal Units               |
 | Prefectures                   |
@@ -16,8 +17,8 @@ An attempt to gather greek static lists in one place.
 | Regions                       |
 | Settlements                   |
 
-&nbsp;
----
+## &nbsp;
+
 &nbsp;
 &nbsp;
 
@@ -28,6 +29,7 @@ An attempt to gather greek static lists in one place.
 | :---------------------------- |
 | Κοινότητες                    |
 | Αποκεντρωμένες Διοικήσεις     |
+| Βουνά                         |
 | Δήμοι                         |
 | Δημοτικές Ενότητες            |
 | Νομαρχίες                     |
@@ -87,18 +89,29 @@ Output
 
 ## API
 
-| List                           | Type       |
-| ------------------------------ | ---------- |
-| `communities`                  | `string[]` |
-| `decentralizedAdministrations` | `string[]` |
-| `geographicalAreas`            | `string[]` |
-| `municipalities`               | `string[]` |
-| `municipalUnits`               | `string[]` |
-| `prefectures`                  | `string[]` |
-| `regionalUnits`                | `string[]` |
-| `regions`                      | `string[]` |
-| `settlements`                  | `string[]` |
+| List                           | Type                                     |
+| ------------------------------ | ---------------------------------------- |
+| `communities`                  | `string[]`                               |
+| `decentralizedAdministrations` | `string[]`                               |
+| `geographicalAreas`            | `string[]`                               |
+| `mountains`                    | `Mountain[]` check [Mountain](#mountain) |
+| `municipalities`               | `string[]`                               |
+| `municipalUnits`               | `string[]`                               |
+| `prefectures`                  | `string[]`                               |
+| `regionalUnits`                | `string[]`                               |
+| `regions`                      | `string[]`                               |
+| `settlements`                  | `string[]`                               |
 
+<h5 id="mountain">Mountain</h5>
+````
+{
+name: string;
+top: string;
+height: number;
+area: string;
+prefecture: string;
+}
+````
 ## Contributing
 
 Contributions are always welcome!
